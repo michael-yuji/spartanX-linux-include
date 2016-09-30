@@ -1,4 +1,7 @@
 module spartanXLinux [system] {
   header "/usr/include/x86_64-linux-gnu/sys/epoll.h"
+  header "/usr/include/x86_64-linux-gnu/sys/sendfile.h"
+  header "/usr/include/x86_64-linux-gnu/sys/ioctl.h"
+  header "/usr/include/x86_64-linux-gnu/sys/inotify.h"
   export *
 }
